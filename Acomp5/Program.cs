@@ -61,7 +61,7 @@ namespace Acomp5
             bool test = true;
             for (int i = 0; i < Result1.Length; i++)
             {
-                test = List.Contains(Result1[1]);
+                test = List.Contains(Result1[i]);
             }
             Assert.True(test);
         }
@@ -80,7 +80,7 @@ namespace Acomp5
             bool test = true;
             for (int i = 0; i < Result2.Length; i++)
             {
-                test = List.Contains(Result2[1]);
+                test = List.Contains(Result2[i]);
             }
             Assert.True(test);
         }
@@ -99,7 +99,7 @@ namespace Acomp5
             bool test = true;
             for (int i = 0; i < Result3.Length; i++)
             {
-                test = List.Contains(Result3[1]);
+                test = List.Contains(Result3[i]);
             }
             Assert.True(test);
         }
